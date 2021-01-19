@@ -1,13 +1,13 @@
 age = float(input())
 gender = input()
 
-if gender == 'm':
+if gender == "m":
     if age >= 16:
-        print('Mr.')
+        print("Mr.")
     else:
-        print('Master')
-elif gender == 'f':
+        print("Master")
+elif gender == "f":
     if age >= 16:
-        print('Ms.')
+        print("Ms.")
     else:
-        print('Miss')
+        print("Miss")

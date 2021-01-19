@@ -1,11 +1,11 @@
 animal = input()
 
-isMammal = animal == 'dog'
-isReptile = animal == 'crocodile' or animal == 'tortoise' or animal == 'snake'
+is_mammal = animal == "dog"
+is_reptile = animal == "crocodile" or animal == "tortoise" or animal == "snake"
 
-if isMammal:
-    print('mammal')
-elif isReptile:
-    print('reptile')
+if is_mammal:
+    print("mammal")
+elif is_reptile:
+    print("reptile")
 else:
-    print('unknown')
+    print("unknown")

@@ -13,8 +13,8 @@ total_price = decor_price + supernumerary_price
 movie_budget -= total_price
 
 if movie_budget >= 0:
-    print('Action!')
-    print(f'Wingard starts filming with {movie_budget:.2f} leva left.')
+    print("Action!")
+    print(f"Wingard starts filming with {movie_budget:.2f} leva left.")
 else:
-    print('Not enough money!')
-    print(f'Wingard needs {abs(movie_budget):.2f} leva more.')
+    print("Not enough money!")
+    print(f"Wingard needs {abs(movie_budget):.2f} leva more.")

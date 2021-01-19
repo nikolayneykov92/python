@@ -1,11 +1,11 @@
 day = input()
 
-isWeekend = day == 'Saturday' or day == 'Sunday'
-isWorkingDay = day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' or day == 'Thursday' or day == 'Friday'
+is_weekend = day == "Saturday" or day == "Sunday"
+is_working_day = day == "Monday" or day == "Tuesday" or day == "Wednesday" or day == "Thursday" or day == "Friday"
 
-if isWeekend:
-    print('Weekend')
-elif isWorkingDay:
-    print('Working day')
+if is_weekend:
+    print("Weekend")
+elif is_working_day:
+    print("Working day")
 else:
-    print('Error')
+    print("Error")

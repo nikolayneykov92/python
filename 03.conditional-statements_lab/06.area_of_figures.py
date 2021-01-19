@@ -4,12 +4,12 @@ figure = input()
 a = float(input())
 b = a
 
-if figure == 'rectangle' or figure == 'triangle':
+if figure == "rectangle" or figure == "triangle":
     b = float(input())
 
-if figure == 'square' or figure == 'rectangle':
+if figure == "square" or figure == "rectangle":
     print(a * b)
-elif figure == 'circle':
+elif figure == "circle":
     print(pi * a ** 2)
-elif figure == 'triangle':
+elif figure == "triangle":
     print((a * b) / 2)

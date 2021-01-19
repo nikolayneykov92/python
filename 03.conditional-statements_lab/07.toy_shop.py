@@ -16,6 +16,6 @@ wonned_money *= 0.9
 money_diff = wonned_money - vacation_price
 
 if money_diff >= 0:
-    print(f'Yes! {money_diff:.2f} lv left.')
+    print(f"Yes! {money_diff:.2f} lv left.")
 else:
-    print(f'Not enough money! {abs(money_diff):.2f} lv needed.')
+    print(f"Not enough money! {abs(money_diff):.2f} lv needed.")

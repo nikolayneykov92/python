@@ -8,4 +8,4 @@ time_total = time_first + time_second + time_third
 minutes = time_total / 60
 seconds = time_total % 60
 
-print(f'{floor(minutes)}:{seconds:02}')
+print(f"{floor(minutes)}:{seconds:02}")
